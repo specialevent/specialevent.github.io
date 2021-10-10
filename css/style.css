@@ -62,7 +62,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   stroke: #2e4057;
-  filter: drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 6px #fff) drop-shadow(0px 0px 15px #ff80b3) drop-shadow(0px 0px 40px #ff4d94) drop-shadow(0px 0px 60px #ff0066);
+  filter: drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 6px #fff) drop-shadow(0px 0px 15px #845ec3) drop-shadow(0px 0px 40px #8765be) drop-shadow(0px 0px 60px #a788d8);
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -87,16 +87,24 @@ body {
   display: none;
   color: #fff;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   opacity: 0;
   transition: all 2s;
   height: 100vh;
-  padding: 0 20px;
+}
+
+.block .a {
+  font-size: 49px !important;
+}
+
+.block .b {
+  font-size: 55px !important;
+  padding-top: 20px;
 }
 
 .block .txt {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
 }
 
